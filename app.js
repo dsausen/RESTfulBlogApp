@@ -24,14 +24,6 @@ var blogSchema = new mongoose.Schema({
 })
 var Blog = mongoose.model("Blog", blogSchema)
 
-/* Blog.create({
-    title: "Mr. Discord",
-    image: "https://i.imgur.com/itElfV3.png",
-    body: "Look at this cute multiplatform application!"
-}, (err, blog) => {
-    if(err) {console.log(`Oh no...\n${err}`)} else {console.log(`Yay!\n${blog}`)}
-}) */
-
 /* RESTful routes */
 app.get("/", (req, res) => {
     res.redirect("/blogs")

@@ -1,0 +1,19 @@
+i.icon {
+    font-size: 1.6em;
+}
+
+a i.icon {
+    font-size: 1em;
+}
+
+.container.main {
+    margin-top: 5em;
+}
+
+#delete-form {
+    display: inline;
+}
+
+.description {
+    word-wrap: break-word;
+}
